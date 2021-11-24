@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Single Piano music</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="looping">Looping</string>
+    <string name="piano">\u0020\u0020Piano!!</string>
+</resources>

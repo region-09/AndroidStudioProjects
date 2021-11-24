@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Жемиш</string>
+    <string name="view_fruit_prompt" translatable="false">Жемиш тандаңыз</string>
+    <string name="apple">Алма</string>
+    <string name="watermelon">Дарбыз</string>
+    <string name="pear">Алмурут</string>
+    <string name="peach">Шабдаалы</string>
+    <string name="toastMessage">"Сиздин тандооңуз "</string>
+</resources>

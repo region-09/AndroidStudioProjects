@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Жалгыз Пианино ыры</string>
+    <string name="piano">Пианино</string>
+    <string name="play">Ырдатуу</string>
+    <string name="pause">Токтотуу</string>
+    <string name="looping">Кайталоо</string>
+</resources>
