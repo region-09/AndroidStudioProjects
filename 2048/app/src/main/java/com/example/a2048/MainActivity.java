@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             {(TextView)findViewById(R.id.o0),(TextView)findViewById(R.id.o1),(TextView)findViewById(R.id.o2),(TextView)findViewById(R.id.o3)},
             {(TextView)findViewById(R.id.t0),(TextView)findViewById(R.id.t1),(TextView)findViewById(R.id.t2),(TextView)findViewById(R.id.t3)},
             {(TextView)findViewById(R.id.u0),(TextView)findViewById(R.id.u1),(TextView)findViewById(R.id.u2),(TextView)findViewById(R.id.u3)}};
-    //Intent goSecond = new Intent();
+    Intent goSecond = new Intent();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,12 +29,12 @@ public class MainActivity extends AppCompatActivity {
     }
     public void up(View v) {
         Button b_up = (Button) findViewById(R.id.b_up);
-//        if (end(textView)) {
-//            goSecond.putExtra("rate", rating(textView));
-//            goSecond.setClass(this, goSecond.class);
-//            startActivity(goSecond);
-//            finish();
-//        }
+        if (end(textView)) {
+            goSecond.putExtra("rate", rating(textView));
+            goSecond.setClass(this, goSecond.class);
+            startActivity(goSecond);
+            finish();
+        }
         b_up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,12 +46,12 @@ public class MainActivity extends AppCompatActivity {
     }
     public void down(View v) {
         Button b_down = (Button) findViewById(R.id.b_down);
-//        if (end(textView)) {
-//            goSecond.putExtra("rate", rating(textView));
-//            goSecond.setClass(this, goSecond.class);
-//            startActivity(goSecond);
-//            finish();
-//        }
+        if (end(textView)) {
+            goSecond.putExtra("rate", rating(textView));
+            goSecond.setClass(this, goSecond.class);
+            startActivity(goSecond);
+            finish();
+        }
         b_down.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,12 +63,12 @@ public class MainActivity extends AppCompatActivity {
     }
     public void left(View v) {
         Button b_left = (Button) findViewById(R.id.b_left);
-//        if (end(textView)) {
-//            goSecond.putExtra("rate", rating(textView));
-//            goSecond.setClass(this, goSecond.class);
-//            startActivity(goSecond);
-//            finish();
-//        }
+        if (end(textView)) {
+            goSecond.putExtra("rate", rating(textView));
+            goSecond.setClass(this, goSecond.class);
+            startActivity(goSecond);
+            finish();
+        }
         b_left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -80,12 +80,12 @@ public class MainActivity extends AppCompatActivity {
     }
     public void right(View v) {
         Button b_right = (Button) findViewById(R.id.b_right);
-//        if (end(textView)) {
-//            goSecond.putExtra("rate", rating(textView));
-//            goSecond.setClass(this, goSecond.class);
-//            startActivity(goSecond);
-//            finish();
-//        }
+        if (end(textView)) {
+            goSecond.putExtra("rate", rating(textView));
+            goSecond.setClass(this, goSecond.class);
+            startActivity(goSecond);
+            finish();
+        }
         b_right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
